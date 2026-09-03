@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#grad1)"/>
+  <rect x="50" y="40" width="700" height="370" rx="12" fill="#131926" stroke="#1f293d" stroke-width="2"/>
+  
+  <!-- Header Bar -->
+  <rect x="50" y="40" width="700" height="40" rx="12" fill="#1e293b"/>
+  <circle cx="80" cy="60" r="6" fill="#ef4444"/>
+  <circle cx="100" cy="60" r="6" fill="#f59e0b"/>
+  <circle cx="120" cy="60" r="6" fill="#10b981"/>
+  <text x="400" y="65" font-family="'Fira Code', monospace" font-size="14" fill="#94a3b8" text-anchor="middle">kenean-kids.web.app</text>
+  
+  <!-- Content Mockup -->
+  <rect x="80" y="110" width="200" height="260" rx="8" fill="#1e293b"/>
+  <text x="100" y="140" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#6366f1">Filter Products</text>
+  <rect x="100" y="160" width="160" height="28" rx="4" fill="#334155"/>
+  <rect x="100" y="200" width="160" height="28" rx="4" fill="#334155"/>
+  <rect x="100" y="240" width="160" height="28" rx="4" fill="#334155"/>
+
+  <!-- Products Grid Mockup -->
+  <rect x="300" y="110" width="200" height="120" rx="8" fill="#1e293b" stroke="#6366f1" stroke-width="1"/>
+  <rect x="520" y="110" width="200" height="120" rx="8" fill="#1e293b"/>
+  <rect x="300" y="250" width="200" height="120" rx="8" fill="#1e293b"/>
+  <rect x="520" y="250" width="200" height="120" rx="8" fill="#1e293b"/>
+
+  <text x="400" y="425" font-family="'Inter', sans-serif" font-weight="600" font-size="16" fill="#818cf8" text-anchor="middle">Kenean Kids — Web-Based Clothing Showcase Platform</text>
+</svg>
