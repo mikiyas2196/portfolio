@@ -9,7 +9,7 @@ export const personalInfo = {
   initials: "MS",
   title: "FULL-STACK WEB DEVELOPER",
   tagline: "Building practical web experiences with modern technologies.",
-  summary: "Recent Information Technology graduate from Jimma University with hands-on experience building functional full-stack web applications using React, Node.js, Laravel, and Firebase.",
+  summary: "Recent Information Technology graduate from Jimma University with hands-on experience building functional full-stack and AI-powered web applications using React, Node.js, Laravel, and Firebase.",
   location: "Addis Ababa, Ethiopia",
   phone: "0947092246",
   email: "mikiiyassebsibe@gmail.com",
@@ -115,6 +115,28 @@ export const experienceData = [
 ];
 
 export const projectsData = [
+  {
+    id: "ai-interview-prep",
+    title: "AI-Powered Personalized Interview Preparation Platform",
+    subtitle: "Interactive AI Coaching & Real-Time Candidate Evaluation",
+    category: "Independent AI & Full-Stack Project",
+    typeBadge: "AI Web Application",
+    featured: true,
+    emphasis: "Latest Project",
+    image: "/images/projects/ai-interview-prep.svg",
+    shortDescription: "An AI-driven interactive web platform designed to provide personalized interview coaching, dynamic question generation, and real-time candidate evaluation.",
+    longDescription: "The AI-Powered Personalized Interview Preparation Platform helps job seekers practice technical and behavioral interviews with customized question sets, real-time response analysis, and tailored performance evaluation driven by artificial intelligence.",
+    technologies: ["React", "Node.js", "AI / LLM Integration", "Tailwind CSS"],
+    keyFeatures: [
+      "Personalized interview question generation based on target role & level",
+      "Real-time AI response evaluation and performance scoring",
+      "Behavioral and technical practice modes with constructive feedback",
+      "Interactive responsive user interface for seamless candidate practice sessions"
+    ],
+    contribution: "Independently architected and developed the full-stack web application, user interface, and AI prompt engineering workflows.",
+    demoUrl: "https://frontend-amber-sigma-33.vercel.app",
+    githubUrl: null // Configure when available
+  },
   {
     id: "kenean-kids",
     title: "Kenean Kids",
